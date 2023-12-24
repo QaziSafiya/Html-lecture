@@ -37,35 +37,45 @@ Lecture 2 (HTML)
 
 semantic tag
 formatting tag
-head tag
+structure  tag
 
 3) advance formating tag
 dl , dt , dd , code ,sup ,sub ,blockquote
 
 
-Semantic tags
+
+
+semantic tags
 
 h1->h6
 <p>
 <a>
 <img>
-<table>
-<form>
+<ul> <ol> <li>
+<Table>
+<Form>
 
-Structure tags
 
-head tag
-bady tag
+
+structure tag
+
+
+head
+body
 header
 nav
-aside
-main
+main 
 article
+aside
 footer
 
-formating tag
-<strong>
+
+
+
+formatting tag
+
+<Strong>
 <em>
+<Sup>
+<Sub>
 <code>
-<sup>
-<sub>
