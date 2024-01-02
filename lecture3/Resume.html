@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .resume {
+      width: 700px;
+      height: 700px;
+      border: 2px solid green;
+    }
+
+    .header {
+      width: 100%;
+      border: 2px solid orange;
+      height: 250px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .profile,
+    .profile img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 2px solid orange;
+    }
+    .description {
+      border: 2px solid red;
+      padding: 20px;
+      width: 400px;
+      height: 200px;
+    }
+    .description h1 {
+      color: orange;
+    }
+    .description p {
+      color: gray;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    .contacts {
+      border: 2px solid blue;
+    }
+    ul {
+      display: flex;
+      color: gray;
+    }
+    li {
+      list-style-type: none;
+      padding: 20px;
+      margin: 12px;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      border: 2px solid blue;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section1,
+    .section2 {
+      border: 2px solid red;
+    }
+
+    .education {
+      width: 100%;
+      height: 100px;
+     
+    }
+
+    .education h1 {
+      color: orange;
+    }
+
+    .experience h1{
+color: orange;
+    }
+    .skills{
+      list-style-type: none;
+      display: flex;
+      padding: 12px;
+      margin: 8px;
+
+      color: gray;
+    }
+  </style>
+  <body>
+    <div class="resume">
+      <div class="header">
+        <div class="profile">
+          <img
+            src="https://media.licdn.com/dms/image/D4D03AQGWML8PIkBapg/profile-displayphoto-shrink_800_800/0/1701156020268?e=1709769600&v=beta&t=5JQz1QwZUh9LNNcqCESLUgkwSV9k1mmTYHgo21hPtk0"
+            alt=""
+          />
+        </div>
+        <div class="description">
+          <h1><strong>Sfiya Siddiqui</strong></h1>
+          <p>
+            <em>Lorem ipsum dolor sit amet consectetur ducimus soluta.</em>
+          </p>
+
+          <ul>
+            <li>contact</li>
+            <li>email</li>
+            <li>phone</li>
+            <li>linkedin</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="section1">
+          <div class="education">
+            <h1><em>Education</em></h1>
+            <p style="color: gray; margin-top: 12px">
+              <em> Pursuing B-Tech </em>
+            </p>
+            <div class="year"><p style="color: gray">2020-2024</p></div>
+
+         </div>
+         <div class="experience">
+          <h1><em>Work experience</em></h1>
+          <p style="color: gray; margin-top: 12px">
+            <em> Intern at oasis infobyte (1may-1june) </em>
+          </p>
+          <div class="year"><p style="color: gray">2020-2024</p></div>
+       
+         </div>
+
+
+         <div class="experience">
+          <h1><em>Acheivements</em></h1>
+          <p style="color: gray; margin-top: 12px">
+            <em> Alpha MLSA </em>
+          </p>
+          <div class="year"><p style="color: gray">2023-2024</p></div>
+       
+         </div>
+
+
+         <div class="experience">
+          <h1><em>Skills</em></h1>
+       <div class="skills">
+        <li>Html</li>
+        <li>Css</li>
+        <li>Javascript</li>
+        <li>Rect</li>
+       </div>
+           
+       
+         </div>
+
+
+       
+
+
+  
+
+
+    
+       
+      </div>
+      <div class="section2">
+        <div class="experience">
+          <h1><em>Projects</em></h1>
+          <p style="color: gray; margin-top: 12px">
+            <em> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, itaque aspernatur quae error ipsam molestias iusto aperiam in distinctio minima dolor officiis? Beatae, nihil quibusdam accusamus fuga sapi perferendis asperiores obcaecati nemo recusandae dolorum molestiae est! Provident, quasi delectus. </em>
+          </p>
+
+          <br><br><br><br>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit hic debitis tempora officia. Dolorem nihil consequatur soluta veniam. Maiores optio est accusamus perspiciatis facere quod eius ipsam nisi!</p>
+         
+       
+         </div>
+
+
+
+
+
+        
+      </div>
+    </div>
+    <script src="forms.js"></script>
+  </body>
+</html>
